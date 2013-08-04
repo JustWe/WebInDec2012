@@ -1,0 +1,413 @@
+/* Design by Jovi zhan */
+a{
+	color:#666666;
+}
+strong{font-weight:bold;}
+body, button, input, select, textarea {
+    font: 12px/1.5 'Microsoft Yahei', Tahoma, SimSun;
+	color:#666666;
+}
+footer, article, section, menu, hgroup {
+	display: block;
+}
+.main {
+    height: auto !important;
+    min-height: 100%;
+    position: relative;
+	background-color:#FAF9F4;
+}
+.top {
+    height: auto;
+    width: 100%;
+}
+.mainbox {
+    clear: both;
+    margin: 11px auto 0;
+    padding-bottom: 86px;
+    position: relative;
+    width: 960px;
+}
+.footer {
+    bottom: 0;
+    clear: both;
+    position: absolute;
+    width: 100%;
+}
+.nav-m{
+	background:url(../images/nav-menu.png) repeat-x scroll 0 0 transparent;
+	height:86px;
+	width:100%;
+	top:71px; 
+	position:absolute;
+}
+.nav{
+	margin:auto;
+    height:58px; 
+	width:960px; 
+}
+.nav ul{
+	height:57px;
+	margin-left:14px;
+}
+.nav li{
+	background:url(../images/nav-bg.png) no-repeat scroll 0 11px transparent;
+	float:left; 
+	width:100px;
+	line-height:53px; 
+	height:53px;
+	text-align:center;
+}
+.nav li a{
+	color:#E8E4E1; 
+	font-size:14px; 
+	display:block;
+	height:58px;
+}
+.nav .m-click a{
+	height:64px;
+}
+.nav li a:hover,.nav li a:focus{
+	background:url(../images/nav-click1.png) no-repeat scroll 0 0 transparent;
+	text-decoration:none;
+	color:#B18659;
+}
+.nav-list .selected{
+	background:url(../images/nav-click4.png) no-repeat scroll 0px 0 transparent;
+}
+.menu_content{
+	margin: auto;
+    width: 960px;
+	height: 28px;
+}
+.menu_content ul{
+	font-size:13px;
+}
+.menu_content ul li{
+	float:left;
+	margin-left:4px;
+	text-align:center;
+	width:90px;
+	line-height:28px;
+	height:28px;
+}
+.menu_content ul li a{
+	color:#333333;
+	height:28px;
+	width:100%;
+	display:block;
+	letter-spacing:1.6px;
+}
+.menu_content ul li a:hover{
+	color:#5A2F02;
+	text-decoration:underline;
+}
+.menu-left02{
+    margin-left:69px;
+}
+.menu-left03{
+	margin-left:169px;
+}
+.menu-left08{
+    margin-left:569px;
+}
+.nav .nav-list .nav-end{
+	background:url(../images/nav-bg1.png) no-repeat scroll 0 11px transparent;
+}
+.logo-l{
+	margin-left:16px;
+    background: url("../Images/logo-nc.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 51px;
+    position: absolute;
+    top: 10px;
+    width: 161px;
+}
+.top-header{
+    height: 157px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.logo{
+	width:960px;
+	margin: 0 auto;
+}
+.slider-box{
+	clear: both;
+    height: 365px;
+    margin-bottom: 15px;
+    width: 960px;
+}
+.slider{
+	clear:both;
+	background: url(../images/ad1.jpg) no-repeat scroll 0 0 transparent;
+    height: 365px!important;
+    position: relative;
+    width: 955px;
+}
+.slider .nivo-caption{
+	display:block !important;
+}
+.main-detail{
+	margin:19px 6px 10px;
+	letter-spacing: 1.5px;
+}
+.detail-left{
+	float:left;
+}
+.detail-left h2,.detail-right h2{
+	letter-spacing: 2.1px;
+	width:408px;
+	font-weight:bold;
+	font-size:16px;
+	height:30px;
+	margin:1px 3px 4px 4px;
+	padding-left:22px;
+	border-bottom:2px solid #EDEDED;
+}
+.color-y{
+	color:#B18659;
+}
+.detail-right{
+	float:right;
+	padding-right:9px;
+}
+.clear-box{
+	clear:both;
+}
+.detail-list{
+	font-size:13px;
+	margin:3px 6px;
+	padding-left:6px;
+}
+.main-detail ul{
+	
+}
+.main-detail li{
+	padding: 0px 6px 8px 14px;
+	margin:8px 0;
+	border-bottom: 1px dashed #E8E8E8;
+}
+.main-detail a{
+	cursor:pointer;
+}
+.main-detail a:hover{
+	color:#B18659;
+	text-decoration:underline;
+}
+.main-detail a:active{
+	color:#B18659;
+}
+.date-content {
+    color: #B18659;
+    float: right;
+    font: 12px/1.5 Tahoma,Arial,sans-serif;
+    margin-right: 8px;
+}
+.detail-left .adjust-top{
+	margin-top:16px;
+}
+.detail-text{
+	margin:13px 0 10px;
+}
+.d-text{
+	letter-spacing:1.4px;
+	height:180px;
+	background:url(../images/cp.gif) no-repeat scroll 0 9px transparent;
+	padding:0 2px 0 174px;
+	width:262px;
+	margin:0 0 0 22px;
+}
+.detail-right .adjust-w{
+	width:436px;
+}
+.detail-right a{
+	float:right;
+	font-size:13px;
+	padding:6px 16px 0 0px;
+}
+.footer-bg{
+	background: url(../images/footer.png) repeat-x scroll 0 0 transparent;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+.copyright {
+    letter-spacing: 1.5px;
+    padding-top:6px;
+    padding-bottom: 4px;
+}
+.copyright a{
+	color:#888888;
+}
+.copyright a:hover{
+	color:#B18659;
+	text-decoration:underline;
+}
+.copyright li {
+    color: #888888;
+    margin: 5px 0;
+    text-align: center;
+}
+.cr_first {
+    padding: 0 12px;
+}
+.cr_body {
+    border-left: 1px solid #E2E2E2;
+    padding: 0 12px;
+}
+
+ /*  列表页  */
+.list-left{
+	float:left;
+	width:250px;
+	background-color:#F7F4EB;
+	height:628px;
+	margin-top:5px;
+}
+.menu-art{
+	margin:26px 0 0 20px;
+}
+.menu-art ul{
+}
+.menu-art li{
+	background:url(../images/newbar.png) no-repeat scroll 0 -40px #FCFAF5;
+	width:210px;
+	height:30px;
+	border:1px solid #F0F0F0;
+	margin-bottom:13px;
+	line-height:30px;
+	letter-spacing: 1.3px;
+}
+.menu-art .current{
+	font-weight:bold;
+	background-position:0px 0px;
+}
+.current a{
+	color:#B18659;
+}
+.menu-art a{
+	padding-left:28px;
+	font-size:14px;
+}
+.menu-art a:hover{
+	font-weight:bold;
+	color:#B18659;
+}
+.list-right{
+	float:right;
+	padding-right:13px;
+	border-right: 1px solid #EDEDED;
+	height:628px;
+}
+.new-list {
+	letter-spacing:1.8px;
+	clear:both;
+	margin:26px 0 0 29px;
+}
+.new-list h2{
+	border-bottom: 2px solid #EDEDED;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    padding-left: 22px;
+    width: 642px;
+	letter-spacing:2.1px;
+}
+.text-list{
+	font-size: 14px;
+    margin: 3px 6px;
+    padding: 0 0 16px 6px;
+}
+.text-list li {
+	background:url(../images/arrow.png) no-repeat scroll 10px 5px;
+    border-bottom: 1px dashed #E8E8E8;
+    margin: 10px 0;
+    padding: 0 6px 11px 29px;
+}
+.text-list a:hover{
+	color:#B18659;
+	text-decoration:underline;
+}
+.paginator {
+    color: #AAAAAA;
+    font: 14px/150% Arial,Helvetica,sans-serif;
+    margin: 66px 0 30px;
+    text-align: center;
+}
+.paginator .prev {
+    margin-right: 20px;
+}
+.paginator a:link {
+    color: #3377AA;
+    text-decoration: none;
+}
+.paginator .thispage {
+    background: none repeat scroll 0 0 #B18659;
+    color: #FFFFFF;
+}
+.paginator a, .thispage, .break {
+    margin: 2px;
+    padding: 0 4px;
+}
+.paginator .next {
+    margin-left: 20px;
+}
+.paginator a:hover {
+    background: none repeat scroll 0 0 #DFB487;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.paginator .break {
+    color: #999999;
+}
+
+   /*内容页*/
+.article{
+	margin:-11px 0 79px;
+	background: url(../images/article-bg.png) repeat-x scroll 0 0 transparent;
+	border-left:1px solid #EdEdEd;
+	border-right:1px solid #EdEdEd;
+	padding-bottom:28px;
+}
+.tree{
+	letter-spacing:1.3px;
+	margin-left:50px;
+	padding-top:17px;
+}
+.tree a{
+	color:#888888;
+	cursor:pointer;
+}
+.tree a:hover{
+	text-decoration:underline;
+	color:#B18659;
+}
+.art-content{
+	width:890px;
+	margin:auto;
+	letter-spacing:1.8px;
+}
+.art-content h2{
+	margin:24px 0 25px;
+	font-size:17px;
+	font-weight:bold;
+	color:#B18659;
+	text-align:center;
+}
+.art-content h3{
+	text-align:center;
+	padding-bottom:20px;
+	border-bottom: 1px dashed #E2E2E2;
+}
+.art-content h4{
+	border-bottom: 1px dashed #E2E2E2;
+}
+.a-contents{
+	margin:36px 21px 50px;
+}
+.a-contents p{
+	font-size:14px;
+	line-height:26px;
+}
